@@ -1,0 +1,14 @@
+.header {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw
+}
+
+.header__navbar {
+    display: flex;
+
+}
