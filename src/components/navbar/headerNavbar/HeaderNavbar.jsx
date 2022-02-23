@@ -16,7 +16,7 @@ const HeaderNavbar = () => {
         <NavLink to="/destination-moon" className={({ isActive}) => isActive ? activeClassName : "link_home"}>
           <strong>01</strong> DESTINATION
         </NavLink>
-        <NavLink to="/crew-douglas" className={({ isActive}) => isActive ? activeClassName : "link_home"}>
+        <NavLink to="/crew" className={({ isActive}) => isActive ? activeClassName : "link_home"}>
           <strong>02</strong> CREW
         </NavLink>
         <NavLink to="/technology-launch" className={({ isActive}) => isActive ? activeClassName : "link_home"}>

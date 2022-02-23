@@ -3,7 +3,9 @@ import "./crewNavbar.css";
 
 const CrewNavbar = () => {
   return (
-    <div>CrewNavbar</div>
+    <div className='crewNavbar'>
+      
+    </div>
   )
 }
 

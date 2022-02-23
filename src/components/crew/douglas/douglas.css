@@ -1,0 +1,68 @@
+.douglas {
+    position: absolute;
+    display: flex;
+    height: 5px;
+}
+
+
+.douglas__text-meet {
+    display: flex;
+}
+
+.zerotwo {
+    font-family: "Barlow Condensed", "Sans";
+    font-weight: bold;
+    font-size: 28px;
+    color: rgba(255,255,255,0.25);
+    letter-spacing: 4.72px;
+}
+
+.meet_your_crew {
+    font-family: "Barlow Condensed", "Sans";
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 4.72px;
+    margin-left: 10px;
+    color: rgba(255,255,255,1);
+}
+
+.douglas__text {
+    width: 488px;
+    height: 400px;
+    margin-left: 175px;
+    margin-top: 70px;
+}
+
+.douglas__text-meet {
+    margin-bottom: 100px;
+}
+
+.douglas__text-subheading {
+    font-family: "Bellefair", "Sans";
+    font-weight: 0;
+    letter-spacing: 2px;
+    font-size: 32px;
+    color: rgba(255,255,255,0.5);
+}
+
+.douglas__text-heading {
+    font-family: 'Bellefair', serif;
+    font-size: 56px;
+    color: white;
+}
+
+.douglas__text-paragraph {
+    font-family: 'Barlow Condensed', serif;
+    width: 450px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #d0d6f9;
+}
+
+.douglas__picture {
+    margin-left: 150px;
+    margin-top: 41px;
+    background-image: url(../../../source/assets/crew/image-douglas-hurley.png);
+    width: 512px;
+    height: 600px;
+}

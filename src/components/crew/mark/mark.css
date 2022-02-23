@@ -1,0 +1,69 @@
+.mark {
+    position: absolute;
+    display: flex;
+    height: 5px;
+}
+
+
+.mark__text-meet {
+    display: flex;
+}
+
+.zerotwo {
+    font-family: "Barlow Condensed", "Sans";
+    font-weight: bold;
+    font-size: 28px;
+    color: rgba(255,255,255,0.25);
+    letter-spacing: 4.72px;
+}
+
+.meet_your_crew {
+    font-family: "Barlow Condensed", "Sans";
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 4.72px;
+    margin-left: 10px;
+    color: rgba(255,255,255,1);
+}
+
+.mark__text {
+    width: 650px;
+    height: 400px;
+    margin-left: 175px;
+    margin-top: 70px;
+}
+
+.mark__text-meet {
+    margin-bottom: 100px;
+}
+
+.mark__text-subheading {
+    font-family: "Bellefair", "Sans";
+    font-weight: 0;
+    letter-spacing: 2px;
+    font-size: 32px;
+    color: rgba(255,255,255,0.5);
+}
+
+.mark__text-heading {
+    font-family: 'Bellefair', serif;
+    font-size: 56px;
+    color: white;
+}
+
+.mark__text-paragraph {
+    font-family: 'Barlow Condensed', serif;
+    width: 450px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #d0d6f9;
+}
+
+.mark__picture {
+    margin-left: 150px;
+    margin-top: 141px;
+    background-image: url(../../../source/assets/crew/image-mark-shuttleworth.png);
+    width: 350px;
+    height: 500px;
+    background-size: cover;
+}
