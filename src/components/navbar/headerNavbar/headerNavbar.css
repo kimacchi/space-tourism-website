@@ -1,0 +1,44 @@
+.headernavbar {
+    filter: blur(4px);
+    position: fixed;
+    width: 500px;
+    height: 20px;
+    background-color: rgba(255,255,255,0.04);
+}
+
+.foreground {
+    backdrop-filter: blur(50px);
+    width: 830px;
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 123px;
+    padding-right: 165px;
+    padding-top: 39px;
+    padding-bottom: 38px;
+    
+}
+
+.link_home {
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    color: white
+}
+
+.link_home:hover {
+    border-bottom: 3px solid rgba(255, 255,255 ,0.5 );
+    padding-bottom: 53.8px;
+}
+
+.active {
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    color: white;
+    border-bottom: 3px solid white;
+    padding-bottom: 53.8px;
+}
+

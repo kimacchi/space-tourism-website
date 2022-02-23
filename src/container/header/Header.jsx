@@ -1,16 +1,17 @@
 import React from 'react'
 import "./header.css";
 import { HeaderNavbar } from '../../components';
+import Logo from "../../source/assets/shared/logo.svg";
 
 const Header = () => {
   return (
     <div className="header">
-      <div><h1>Hello</h1></div>
+      <div className='logo'>
+        <img src={Logo} />
+        <div className='line'></div>
+      </div>
       <div className='header__navbar'>
-        <p>sdfgs</p>
-        <p>sdfgs</p>
-        <p>sdfgs</p>
-        <p>sdfgs</p>
+        <HeaderNavbar />
       </div>
     </div>
   )

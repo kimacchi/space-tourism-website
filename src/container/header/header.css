@@ -8,7 +8,18 @@
     width: 100vw
 }
 
-.header__navbar {
+.logo {
+    padding-left: 20px;
     display: flex;
-
 }
+.line {
+    position: absolute;
+    width: 600px;
+    height: 1px;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+
+

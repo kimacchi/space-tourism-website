@@ -1,10 +1,17 @@
 import React from 'react'
 import "./destination.css";
 import { Mars, Europa, Titan, Moon, DestinationNavbar } from '../../components';
+import Header from '../header/Header';
+
 
 const Destination = (props) => {
   return (
-    <div>Destination</div>
+    <div className="destination">
+      <div>
+        <Header />
+      </div>
+      <p>destination</p>
+    </div>
   )
 }
 

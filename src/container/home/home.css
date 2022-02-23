@@ -1,4 +1,83 @@
 .home {
     width: 100vw;
     height: 100vh;
+    background-image: url(../../source/assets/home/background-home-desktop.jpg);
+    background-size: cover;
 }
+
+
+.home__content {
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-around;
+}
+
+.home__content-text {
+    margin-top: 90px;
+    width: 450px;
+    height: 382px;
+}
+
+.home__content-button {
+    margin-top: 170px;
+    width: 274px;
+    height: 274px;
+}
+
+.home__content-text_subheading {
+    font-family: 'Barlow Condensed', serif;
+    letter-spacing: 4.75px;
+    font-size: 28px;
+    color: white;
+}
+
+.home__content-text_heading {
+    font-family: 'Bellefair', serif;
+    font-size: 150px;
+    color: white;
+}
+
+.home__content-text_paragraph {
+    font-family: 'Barlow Condensed', serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #d0d6f9;
+}
+
+
+@keyframes button-hover {
+    0% {
+        outline: rgba(255,255,255,0.1) solid 0px;
+    }
+    100% {
+        outline: rgba(255,255,255,0.1) solid 60px;
+    }
+    
+}
+
+@keyframes button-out {
+    0% {
+        outline: rgba(255,255,255,0.1) solid 60px;
+    }
+    100% {
+        outline: rgba(255,255,255,0.1) solid 0px;
+    }
+}
+
+.home__content-button_landingbutton{
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    width: 274px;
+    height: 274px;
+    border-radius: 50%;
+    border: 0px;
+    outline: rgba(255,255,255,0.1) solid 0px;
+    animation: button-out 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.home__content-button_landingbutton:hover{
+    animation: button-hover 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    cursor: pointer;
+}
+
+
