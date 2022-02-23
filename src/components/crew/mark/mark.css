@@ -60,10 +60,10 @@
 }
 
 .mark__picture {
-    margin-left: 150px;
-    margin-top: 141px;
+    margin-left: 0px;
+    margin-top: 0.5vh;
     background-image: url(../../../source/assets/crew/image-mark-shuttleworth.png);
-    width: 350px;
-    height: 500px;
+    width: 30vw;
+    height: 83.29vh;
     background-size: cover;
 }

@@ -61,9 +61,9 @@
 
 .anousheh__picture {
     margin-left: 150px;
-    margin-top: 141px;
+    margin-top: 10.6vh;
     background-image: url(../../../source/assets/crew/image-anousheh-ansari.png);
-    width: 500px;
-    height: 500px;
+    width: 35vw;
+    height: 73.29vh;
     background-size: cover;
 }

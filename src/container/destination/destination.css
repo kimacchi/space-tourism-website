@@ -4,3 +4,153 @@
     background-image: url(../../source/assets/destination/background-destination-desktop.jpg);
     background-size: cover;
 }
+
+.site-description {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.zeroone {
+    font-family: "Barlow Condensed", "Sans";
+    font-weight: bold;
+    font-size: 28px;
+    color: rgba(255,255,255,0.25);
+    letter-spacing: 4.72px;
+}
+
+.pick-your-destination {
+    font-family: "Barlow Condensed", "Sans";
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 4.72px;
+    margin-left: 10px;
+    color: rgba(255,255,255,1);
+}
+
+.destination__content {
+    width: 1120px;
+    height: 530px;
+    margin-left: 175px;
+    margin-top: 40px;
+}
+
+.destination__navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: 40px;
+    margin-left: 575px;
+}
+
+.destination__link {
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    font-weight: 400;
+    color: #D0D6F9;
+    cursor: pointer;
+
+}
+
+.destination__link:hover {
+    border-bottom: 3px solid rgba(255, 255,255 ,0.5 );
+    padding-bottom: 35.8px;
+    color: #D0D6F9;
+    cursor: pointer;
+}
+
+.activedestination {
+    border-bottom: 3px solid rgba(255, 255,255 ,0.5 );
+    color: white;
+    padding-bottom: 35.8px;
+}
+
+.destination__content_unmutable{
+    display: flex;
+}
+
+.moon__image {
+    width: 1187px;
+    height: 430px;
+    background-image: url(../../source//assets/destination/image-moon.png);
+    margin-right: 150px;
+    background-repeat: no-repeat;
+
+}
+.mars__image {
+    width: 1187px;
+    height: 430px;
+    background-image: url(../../source//assets/destination/image-mars.png);
+    margin-right: 150px;
+    background-repeat: no-repeat;
+}
+.titan__image {
+    width: 1187px;
+    height: 430px;
+    background-image: url(../../source//assets/destination/image-titan.png);
+    margin-right: 150px;
+    background-repeat: no-repeat;
+
+}
+.europa__image {
+    width: 1187px;
+    height: 430px;
+    background-image: url(../../source//assets/destination/image-europa.png);
+    margin-right: 150px;
+    background-repeat: no-repeat;
+
+}
+
+.description {
+    margin-top: 20px;
+    width: 1400px;
+}
+
+.text-header {
+    font-family: "Bellefair";
+    font-size: 100px;
+    color: white;
+}
+
+.text-paragraph {
+    font-family: "Barlow Condensed";
+    font-size: 18px;
+    color: #D0D6F9;
+}
+
+.description-est {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-top: 1px solid white;
+    padding-top: 30px;
+    margin-top: 40px;
+    padding-right: 100px;
+}
+
+.avg-distance-subtext {
+    font-family: "Barlow Condensed";
+    font-size: 14px;
+    letter-spacing: 2.36px;
+    color:#D0D6F9;
+}
+
+.est-travel-subtext {
+    font-family: "Barlow Condensed";
+    font-size: 14px;
+    letter-spacing: 2.36px;
+    color:#D0D6F9;
+}
+
+.avg-distance-header {
+    font-family: "Bellefair";
+    font-size: 28px;
+    color: white;
+}
+
+.est-travel-header {
+    font-family: "Bellefair";
+    font-size: 28px;
+    color: white;
+}

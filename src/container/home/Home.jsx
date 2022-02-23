@@ -21,7 +21,7 @@ const Home = () => {
         </div>
         <div className="home__content-button">
           <button className='home__content-button_landingbutton' onClick={()=>{
-            navigate("/destination-moon");
+            navigate("/destination");
           }} >
             EXPLORE
           </button>

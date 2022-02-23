@@ -61,9 +61,9 @@
 
 .victor__picture {
     margin-left: 0px;
-    margin-top: 141px;
+    margin-top: 0.5vh;
     background-image: url(../../../source/assets/crew/image-victor-glover.png);
-    width: 450px;
-    height: 500px;
+    width: 40vw;
+    height: 83.29vh;
     background-size: cover;
 }

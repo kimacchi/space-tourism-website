@@ -1,6 +1,7 @@
 import React from 'react'
 import "./douglas.css";
 import "../crew.css";
+import douglasimage from "../../../source/assets/crew/image-douglas-hurley.png";
 
 
 const Douglas = () => {
@@ -16,7 +17,6 @@ const Douglas = () => {
         <p className='douglas__text-paragraph'>Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
       </div>
       <div className='douglas__picture'>
-
       </div>
     </div>
   )

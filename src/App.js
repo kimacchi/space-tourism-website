@@ -16,14 +16,9 @@ const App = () => {
     <div>
         <Routes>
         <Route path="/" element={<Home />} exact={true} />
-        <Route path="/destination-moon" element={<Destination destination="moon" />} />
-        <Route path="/destination-mars" element={<Destination destination="mars" />} />
-        <Route path="/destination-titan" element={<Destination destination="titan" />} />
-        <Route path="/destination-europa" element={<Destination destination="europa" />} />
+        <Route path="/destination" element={<Destination />} />
         <Route path="/crew" element={<Crew />} />
-        <Route path="/technology-launch" element={<Technology stage="launch" />} />
-        <Route path="/technology-spaceport" element={<Technology stage="spaceport" />} />
-        <Route path="/technology-spacecapsule" element={<Technology stage="spacecapsule" />} />
+        <Route path="/technology" element={<Technology />} />
         </Routes>
     </div>
    </BrowserRouter>
