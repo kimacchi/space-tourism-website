@@ -2,7 +2,6 @@ import React from 'react'
 import "./technology.css";
 // import { Launch, Spacecapsule, Spaceport, TechnologyNavbar } from '../../components';
 import Header from '../header/Header';
-import { toHaveAccessibleDescription } from '@testing-library/jest-dom/dist/matchers';
 
 
 const Launch = ()=>(

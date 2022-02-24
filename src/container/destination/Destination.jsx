@@ -1,6 +1,5 @@
 import React from 'react'
 import "./destination.css";
-// import { Mars, Europa, Titan, Moon, DestinationNavbar } from '../../components';
 import Header from '../header/Header';
 
 const Moonx = ()=>(

@@ -1,17 +1,14 @@
 import React from 'react';
-import "./app.css";
 import {
     BrowserRouter,
     Routes,
-    Route,
-    Navigate
+    Route
   } from "react-router-dom";
-import { Home, Technology, Destination, Header, Crew } from './container';
+import { Home, Technology, Destination, Crew } from './container';
 
 const App = () => {
   return (
     <div>
-        {/* <Header /> */}
    <BrowserRouter>
     <div>
         <Routes>
