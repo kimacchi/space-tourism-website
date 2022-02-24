@@ -111,16 +111,16 @@ export default class Destination extends React.Component {
             <p className='pick-your-destination'>PICK YOUR DESTINATION</p>
           </div>
           <div className='destination__navbar'>
-            <p className={this.state.destination == "moon" ? "destination__link activedestination" : "destination__link"} onClick={this.navMoon}>MOON</p>
-            <p className={this.state.destination == "mars" ? "destination__link  activedestination" : "destination__link"} onClick={this.navMars}>MARS</p>
-            <p className={this.state.destination == "europa" ? "destination__link  activedestination" : "destination__link"} onClick={this.navEuropa}>EUROPA</p>
-            <p className={this.state.destination == "titan" ? "destination__link  activedestination" : "destination__link"} onClick={this.navTitan}>TITAN</p>
+            <p className={this.state.destination === "moon" ? "destination__link activedestination" : "destination__link"} onClick={this.navMoon}>MOON</p>
+            <p className={this.state.destination === "mars" ? "destination__link  activedestination" : "destination__link"} onClick={this.navMars}>MARS</p>
+            <p className={this.state.destination === "europa" ? "destination__link  activedestination" : "destination__link"} onClick={this.navEuropa}>EUROPA</p>
+            <p className={this.state.destination === "titan" ? "destination__link  activedestination" : "destination__link"} onClick={this.navTitan}>TITAN</p>
           </div>
           <div className='changable-content-destination'>
-            {this.state.destination == "moon" ? <Moonx /> : undefined}
-            {this.state.destination == "mars" ? <Marsx /> : undefined}
-            {this.state.destination == "europa" ? <Europax /> : undefined}
-            {this.state.destination == "titan" ? <Titanx /> : undefined}
+            {this.state.destination === "moon" ? <Moonx /> : undefined}
+            {this.state.destination === "mars" ? <Marsx /> : undefined}
+            {this.state.destination === "europa" ? <Europax /> : undefined}
+            {this.state.destination === "titan" ? <Titanx /> : undefined}
           </div>
         </div>
     </div>

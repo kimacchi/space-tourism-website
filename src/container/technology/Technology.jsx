@@ -50,14 +50,14 @@ export default class Technology extends React.Component {
             <p className='space-launch'>SPACE LAUNCH 101</p>
           </div>
           <div className='technology__content-text'>
-            {this.state.stage == "launch" ? <Launch /> : undefined}
-            {this.state.stage == "spaceport" ? <Spaceport /> : undefined}
-            {this.state.stage == "spacecapsule" ? <Spacecapsule /> : undefined}
+            {this.state.stage === "launch" ? <Launch /> : undefined}
+            {this.state.stage === "spaceport" ? <Spaceport /> : undefined}
+            {this.state.stage === "spacecapsule" ? <Spacecapsule /> : undefined}
           </div>
           <div className='technology__content-navbar'>
-            <button className={this.state.stage == "launch" ? "technology__navbar currently" : "technology__navbar"} onClick={this.navLaunch}>1</button>
-            <button className={this.state.stage == "spaceport" ? "technology__navbar currently" : "technology__navbar"} onClick={this.navSpaceport}>2</button>
-            <button className={this.state.stage == "spacecapsule" ? "technology__navbar currently" : "technology__navbar"} onClick={this.navSpacecapsule}>3</button>
+            <button className={this.state.stage === "launch" ? "technology__navbar currently" : "technology__navbar"} onClick={this.navLaunch}>1</button>
+            <button className={this.state.stage === "spaceport" ? "technology__navbar currently" : "technology__navbar"} onClick={this.navSpaceport}>2</button>
+            <button className={this.state.stage === "spacecapsule" ? "technology__navbar currently" : "technology__navbar"} onClick={this.navSpacecapsule}>3</button>
           </div>
           <div className={`technology__content-image image-of-${this.state.stage}`}>
 

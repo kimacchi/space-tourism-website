@@ -8,7 +8,6 @@ const HeaderNavbar = () => {
     <div>
       <div className='headernavbar'></div>
       <div className='foreground'>
-        {/* <div className='line_foreground'></div> */}
         <NavLink to="/" className={({ isActive}) => isActive ? activeClassName : "link_home"}>
           <strong>00</strong> HOME
         </NavLink>
