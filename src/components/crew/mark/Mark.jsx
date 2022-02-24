@@ -1,6 +1,5 @@
 import React from 'react'
 import "./mark.css";
-import "../crew.css";
 
 
 const Mark = () => {

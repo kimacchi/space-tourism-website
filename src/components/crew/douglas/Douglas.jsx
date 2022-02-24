@@ -1,7 +1,5 @@
 import React from 'react'
 import "./douglas.css";
-import "../crew.css";
-import douglasimage from "../../../source/assets/crew/image-douglas-hurley.png";
 
 
 const Douglas = () => {

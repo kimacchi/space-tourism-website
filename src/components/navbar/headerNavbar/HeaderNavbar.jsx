@@ -1,7 +1,6 @@
 import React from 'react'
 import "./headerNavbar.css";
-import { Button } from '@mui/material';
-import { Link, NavLink } from 'react-router-dom';
+import {NavLink } from 'react-router-dom';
 
 const HeaderNavbar = () => {
   let activeClassName = "active"

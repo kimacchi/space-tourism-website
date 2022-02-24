@@ -1,6 +1,5 @@
 import React from 'react'
 import "./victor.css";
-import "../crew.css";
 
 
 const Victor = () => {

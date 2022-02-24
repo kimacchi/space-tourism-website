@@ -1,6 +1,5 @@
 import React from 'react';
 import "./anousheh.css";
-import "../crew.css";
 
 
 const Anousheh = () => {
