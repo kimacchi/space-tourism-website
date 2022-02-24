@@ -4,3 +4,138 @@
     background-image: url(../../source/assets/technology/background-technology-desktop.jpg);
     background-size: cover;
 }
+
+
+.technology__content {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1.7fr 0.3fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1.4fr 0.6fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "technology__content-site-explanation technology__content-site-explanation technology__content-site-explanation . . ."
+    "technology__content-navbar technology__content-text technology__content-text technology__content-image technology__content-image technology__content-image"
+    "technology__content-navbar technology__content-text technology__content-text technology__content-image technology__content-image technology__content-image"
+    ". . . . . ."; 
+}
+
+.technology__content-text { 
+    grid-area: technology__content-text; 
+    height: 50vh;
+}
+
+.technology__content-image { 
+    grid-area: technology__content-image;
+}
+
+.technology__content-navbar { 
+    grid-area: technology__content-navbar;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 14vh;
+    padding-top: 6vh;
+    padding-right: 1vw;
+}
+
+.technology__content-site-explanation { 
+    grid-area: technology__content-site-explanation; 
+    
+}
+
+.image-of-launch {
+    background-image: url(../../source/assets/technology/image-launch-vehicle-portrait.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.image-of-spaceport {
+    background-image: url(../../source/assets/technology/image-spaceport-portrait.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.image-of-spacecapsule {
+    background-image: url(../../source/assets/technology/image-space-capsule-portrait.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.technology-text{
+    margin-top: 6vh;
+    padding-right: 6vw;
+    margin-left: 1.8vw;
+}
+
+.technology__subheader{
+    font-family: "Barlow Condensed";
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    color:#d0d6f9;
+}
+
+.technology__header{
+    font-family: "Bellefair";
+    font-size: 56px;
+    color: white;
+}
+
+.technology__paragraph{
+    font-family: "Barlow Condensed";
+    font-size: 18px;
+    color:#d0d6f9;
+}
+
+.technology__content-site-explanation{
+    display: flex;
+    padding-left: 11vw;
+    padding-top: 9vh;
+}
+
+.zerothree {
+    font-family: "Barlow Condensed";
+    font-weight: 900;
+    font-size: 28px;
+    color: rgba(255,255,255,0.25);
+    letter-spacing: 4.72px;
+}
+
+.space-launch {
+    font-family: "Barlow Condensed";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    letter-spacing: 4.72px;
+    color: white;
+    margin-left: 0.5vw;
+}
+
+.technology__navbar {
+    width: 4vw;
+    height: 4vw;
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0);
+    color: white;
+    font-family: "Bellefair";
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.currently {
+    cursor: default;
+    border: 1px solid rgba(255,255,255,0);
+    background-color: white;
+    font-family: "Bellefair";
+    font-size: 32px;
+    font-weight: 900;
+    color: #0B0D17;
+}
+
+.technology__navbar:hover {
+    border: 1px solid rgba(255,255,255,1);
+}
+
